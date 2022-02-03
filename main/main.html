@@ -198,8 +198,6 @@
             <div class="rule_btn"><a href="#">자세히 보기</a></div>
         </div>
     </div>
-
-    </div>
 </section>
 <section class="onlineShop">
     <h2>온라인샵 영역</h2>
@@ -266,15 +264,15 @@
         </div>
             <div class="Info">
             <ul>
-                <li class="Info01" onclick=window.location=("../sub/g-1-1.html")>
+                <li class="Info01" onclick="window.location='../sub/g1/g-1-1.html'">
                     <div>
                     <p>연희FC 선수단</p>
-                    <h4>안녕하세요. 언제나</br>승리를 향한 열정 가득한</br>
+                    <h4>안녕하세요. 언제나<br/>승리를 향한 열정 가득한<br/>
                     연희FC의 선수들을 둘러보세요.</h4>
                     </div>
                     <div><a href="#"></a></div>
                 </li>
-                <li class="Info02" onclick=window.location=("../sub/g-1-1.html")>
+                <li class="Info02" onclick="window.location='../sub/g1/g-1-1.html'">
                     <div>
                     <p>연희FC 구단정보</p>
                     <h3>구단 소개와 역사<br/>
@@ -328,9 +326,12 @@
     <p>더 많은소식을 SNS채널을 통해 만나보세요!</p>
     <div class="sns_bottom_img">
         <ul>
-            <li><a href="#"><img src="../images/main/insta_color.png"></a></li>
-            <li><a href="#"><img src="../images/main/youtube_color.png"></a></li>
-            <li><a href="#"><img src="../images/main/facebook_color.png"></a></li>
+            <li><a href="#"><img src="../images/main/insta_color.png" alt="인스타로고">
+            </a></li>
+            <li><a href="#"><img src="../images/main/youtube_color.png" alt="유튜브로고">
+            </a></li>
+            <li><a href="#"><img src="../images/main/facebook_color.png" alt="페이스북로고">
+            </a></li>
         </ul>
     </div>
 </section>
@@ -338,11 +339,16 @@
     <h2>협력사 영역</h2>
     <p>공식 파트너</p>
     <ul class="partner_img">
-        <li><a href="#"><img src="../images/main/img01.png" alt=""></a></li>
-        <li><a href="#"><img src="../images/main/img02.png" alt=""></a></li>
-        <li><a href="#"><img src="../images/main/img03.png" alt=""></a></li>
-        <li><a href="#"><img src="../images/main/img04.png" alt=""></a></li>
-        <li><a href="#"><img src="../images/main/img05.png" alt=""></a></li>
+        <li><a href="#"><img src="../images/main/img01.png" alt=""></a>
+        </li>
+        <li><a href="#"><img src="../images/main/img02.png" alt=""></a>
+        </li>
+        <li><a href="#"><img src="../images/main/img03.png" alt=""></a>
+        </li>
+        <li><a href="#"><img src="../images/main/img04.png" alt=""></a>
+        </li>
+        <li><a href="#"><img src="../images/main/img05.png" alt=""></a>
+        </li>
     </ul>
 </section>
 <footer>
@@ -358,7 +364,8 @@
     <div class="line">&nbsp;</div>
     <div class="footer_bottom">
         <ul>
-            <li><a href="#"><img src="../images/main/emblem.png_w.png"></a></li>
+            <li><a href="#"><img src="../images/main/emblem.png_w.png" alt="엠블럼_흰">
+            </a></li>
             <li>대표자명 : 여은주 ㅣ 대표전화 : 02 - 306 - 5050 ㅣ 개인정보책임자 : 이재근<br/>
             서울시 마포구 월드컵로 240 서울월드컵경기장 내<br/>
             Copyright@2019 GS Sports Football Club Seoul</li>
@@ -375,14 +382,13 @@
 <div>
     
 </div>
-</body>
+
 <script src="../js/script.js"></script>
 <script src="../js/jquery.js"></script>
 <script src="../js/jquery.jdSlider-latest.min.js"></script>
 <script>
     window.onload = function () {
     
-    /*스크립트*/
     $(".slider1").jdSlider();
     $(".slider2").jdSlider({
         wrap : ".slide-inner",
@@ -410,4 +416,5 @@ $("#menu_btn").click(function(){
 	$(".gnb>ul").fadeToggle(200);
 });
 </script>
+</body>
 </html>
